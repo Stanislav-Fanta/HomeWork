@@ -62,10 +62,10 @@
 
 int[,] arr = new int[10, 10];
 
-fillarray(ref arr);
-arithmetic_mean(arr);
+FillArray(ref arr);
+ArithmeticMean(arr);
 
-static void fillarray(ref int[,] arrey) {
+static void FillArray(ref int[,] arrey) {
     for(int i=0; i<arrey.GetLength(0); i++){
         for(int j=0; j<arrey.GetLength(1); j++){
             arrey[i,j] = new Random().Next(0,20);
@@ -74,7 +74,7 @@ static void fillarray(ref int[,] arrey) {
 }
 
 
-static void arithmetic_mean(int[,] arrey){
+static void ArithmeticMean(int[,] arrey){
     for(int i=0; i<arrey.GetLength(0); i++){
         int summ = 0;
         for(int j=0; j<arrey.GetLength(1); j++){
