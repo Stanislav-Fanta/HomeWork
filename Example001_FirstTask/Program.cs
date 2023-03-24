@@ -1,30 +1,27 @@
 ﻿Console.Clear();
 
-// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+// Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 
-// System.Console.Write("Введите числа через запятую: ");
-// string[] arr = System.Console.ReadLine().Split(',');
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+double[,] arr = new double[a,b];
 
-// System.Console.WriteLine(positive_digits(arr)); 
+fillarray(ref arr);
+printarrey(arr);
 
-// static int positive_digits(string[] a){
-//     int count = 0;
-//     for(int i=0; i<a.Length; i++){
-//         if(int.Parse(a[i]) > 0){
-//             count++;
-//         }
-//     } return count;
-// }
+static void fillarray(ref double[,] arrey) {
+    for(int i=0; i<arrey.GetLength(0); i++){
+        for(int j=0; j<arrey.GetLength(1); j++){
+            arrey[i,j] = new Random().Next();
+        }
+    }
+}
 
-// Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
-
-System.Console.Write("b1 = ");
-double b1 = double.Parse(System.Console.ReadLine());
-System.Console.Write("k1 = ");
-double k1 = double.Parse(System.Console.ReadLine());
-System.Console.Write("b2 = ");
-double b2 = double.Parse(System.Console.ReadLine());
-System.Console.Write("k2 = ");
-double k2 = double.Parse(System.Console.ReadLine());
-
-System.Console.WriteLine($"({b2-b1/k1-k2}, {k1*(b2-b1/k1-k2)+b1})");
+static void printarrey(double[,] arrey){
+    for(int i=0; i<arrey.GetLength(0); i++){
+        for(int j=0; j<arrey.GetLength(1); j++){
+            System.Console.Write($"{arrey[i,j]} ");
+        }
+        System.Console.WriteLine(" ");
+    }
+}
