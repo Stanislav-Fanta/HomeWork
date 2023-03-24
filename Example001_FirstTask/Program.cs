@@ -26,12 +26,44 @@
 //     }
 // }
 
+
+
+
 // Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
+// int[,] arr = new int[10, 10];
+
+// fillarray(ref arr);
+
+// static void fillarray(ref int[,] arrey) {
+//     for(int i=0; i<arrey.GetLength(0); i++){
+//         for(int j=0; j<arrey.GetLength(1); j++){
+//             arrey[i,j] = new Random().Next(0,20);
+//         }
+//     }
+// }
+
+// System.Console.WriteLine("Введите позицию элемента: ");
+// System.Console.Write("Ряд: ");
+// int a = int.Parse(System.Console.ReadLine());
+// System.Console.Write("Столбец: ");
+// int b = int.Parse(System.Console.ReadLine());
+
+// if(a > arr.GetLength(0) || a<0 || b > arr.GetLength(1) || b<0) {
+//     System.Console.WriteLine("Такого элемента нет");
+// } else {
+//     System.Console.WriteLine(arr[a,b]);
+// }
+
+
+
+
+// Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
 int[,] arr = new int[10, 10];
 
 fillarray(ref arr);
+arithmetic_mean(arr);
 
 static void fillarray(ref int[,] arrey) {
     for(int i=0; i<arrey.GetLength(0); i++){
@@ -41,16 +73,13 @@ static void fillarray(ref int[,] arrey) {
     }
 }
 
-System.Console.WriteLine("Введите позицию элемента: ");
-System.Console.Write("Ряд: ");
-int a = int.Parse(System.Console.ReadLine());
-System.Console.Write("Столбец: ");
-int b = int.Parse(System.Console.ReadLine());
 
-if(a > arr.GetLength(0) || a<0 || b > arr.GetLength(1) || b<0) {
-    System.Console.WriteLine("Такого элемента нет");
-} else {
-    System.Console.WriteLine(arr[a,b]);
+static void arithmetic_mean(int[,] arrey){
+    for(int i=0; i<arrey.GetLength(0); i++){
+        int summ = 0;
+        for(int j=0; j<arrey.GetLength(1); j++){
+            summ += arrey[i,j];
+        };
+        System.Console.WriteLine((double)summ/arrey.GetLength(0));
+    }
 }
-
-
