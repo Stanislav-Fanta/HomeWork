@@ -1,0 +1,30 @@
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.exe
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.deps.json
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.runtimeconfig.json
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.dll
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.pdb
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.csproj.AssemblyReference.cache
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.AssemblyInfoInputs.cache
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.AssemblyInfo.cs
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.csproj.CoreCompileInputs.cache
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.dll
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\refint\Example001_FirstTask.dll
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.pdb
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.genruntimeconfig.cache
+D:\GB\Изучение C#\Second Lesson\Example001_FirstTask\obj\Debug\net6.0\ref\Example001_FirstTask.dll
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.exe
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.deps.json
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.runtimeconfig.json
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.dll
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\bin\Debug\net6.0\Example001_FirstTask.pdb
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.csproj.AssemblyReference.cache
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.AssemblyInfoInputs.cache
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.AssemblyInfo.cs
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.csproj.CoreCompileInputs.cache
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.dll
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\refint\Example001_FirstTask.dll
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.pdb
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\Example001_FirstTask.genruntimeconfig.cache
+D:\GB\Изучение C#\ДЗ\Example001_FirstTask\obj\Debug\net6.0\ref\Example001_FirstTask.dll

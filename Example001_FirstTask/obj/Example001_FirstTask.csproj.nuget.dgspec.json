@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GB\\Изучение C#\\ДЗ\\Example001_FirstTask\\Example001_FirstTask.csproj": {}
+  },
+  "projects": {
+    "D:\\GB\\Изучение C#\\ДЗ\\Example001_FirstTask\\Example001_FirstTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GB\\Изучение C#\\ДЗ\\Example001_FirstTask\\Example001_FirstTask.csproj",
+        "projectName": "Example001_FirstTask",
+        "projectPath": "D:\\GB\\Изучение C#\\ДЗ\\Example001_FirstTask\\Example001_FirstTask.csproj",
+        "packagesPath": "C:\\Users\\FanStas\\.nuget\\packages\\",
+        "outputPath": "D:\\GB\\Изучение C#\\ДЗ\\Example001_FirstTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FanStas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
