@@ -164,58 +164,64 @@ FillArraySpiral(ref arr);
 PrintArray(arr);
 
 static void FillArraySpiral(ref int[,] array){
-    int indentWight = 0;
+    int indentWidth = 0;
     int indentHight = 0;
     int digit = 1;
     for(int step=0;;step++){
-        PrintArray(array);
-        System.Console.WriteLine($"step : {step}");
-        System.Console.WriteLine($"indentWight : {indentWight}");
-        System.Console.WriteLine($"indentHight : {indentHight}");
-        System.Console.WriteLine($"digit : {digit}");
-        System.Console.WriteLine();
-        if(array[indentWight,indentHight]!=0){
+        // PrintArray(array);
+        // System.Console.WriteLine($"step : {step}");
+        // System.Console.WriteLine($"indentWidth : {indentWidth}");
+        // System.Console.WriteLine($"indentHight : {indentHight}");
+        // System.Console.WriteLine($"digit : {digit}");
+        // System.Console.WriteLine();
+        int notFilled = 0;
+        for(int i=0;i<array.GetLength(0);i++){
+            for(int j=0;j<array.GetLength(0);j++){
+                if(array[i,j] == 0){
+                    notFilled++;
+                }
+            }
+        }
+        if(notFilled==0){
             break;
         }
         if(step==0){
-            for(int i=0+indentWight;i<array.GetLength(0)-indentWight;i++){
+            for(int i=0+indentWidth;i<array.GetLength(0)-indentWidth;i++){
                 if(array[indentHight,i]!= 0){
                     break;
                 }
                 array[indentHight,i] = digit;
                 digit++;
             }
-            indentWight++;
             continue;
         } 
         else if(step==1){
             for(int i=1+indentHight;i<array.GetLength(1)-indentHight;i++){
-                if(array[i,array.GetLength(1)-indentWight]!=0){
+                if(array[i,array.GetLength(1)-1-indentWidth]!=0){
                     break;
                 }
-                array[i,array.GetLength(1)-indentWight] = digit;
+                array[i,array.GetLength(1)-1-indentWidth] = digit;
                 digit++;
             }
-            indentHight++;
             continue;
         }
         if(step==2){
-            for(int i=array.GetLength(0)-1-indentWight;i>indentWight-2;i--){
-                if(array[array.GetLength(0)-indentHight,i]!= 0){
+            for(int i=array.GetLength(0)-2-indentWidth;i>indentWidth-1;i--){
+                if(array[array.GetLength(0)-1-indentHight,i]!= 0){
                     break;
                 }
-                array[array.GetLength(0)-indentHight,i] = digit;
+                array[array.GetLength(0)-1-indentHight,i] = digit;
                 digit++;
             }
-            indentWight++;
+            indentWidth++;
             continue;
         }
         else if(step==3){
-            for(int i=array.GetLength(1)-1-indentHight;i>indentHight-2;i--){
-                if(array[i,indentWight-2]!=0){
+            for(int i=array.GetLength(0)-2-indentHight;i>indentHight-1;i--){
+                if(array[i,indentWidth-1]!=0){
                     break;
                 }
-                array[i,indentWight-2] = digit;
+                array[i,indentWidth-1] = digit;
                 digit++;
             }
             indentHight++;
@@ -225,7 +231,7 @@ static void FillArraySpiral(ref int[,] array){
     }
 }
 
-static void PrintArray(int[,] array){
+static void PrintArray(int[,] array) {
     for(int i=0;i<array.GetLength(0);i++){
         System.Console.Write("[");
         for(int j=0;j<array.GetLength(0);j++){
@@ -234,3 +240,6 @@ static void PrintArray(int[,] array){
         System.Console.WriteLine("]");
     }
 }
+
+
+System.Console.WriteLine(16%2);
