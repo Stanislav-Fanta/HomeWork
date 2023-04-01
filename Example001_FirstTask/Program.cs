@@ -158,7 +158,11 @@ static void FillArray(ref int[,] array) {
 
 //               Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 
-int[,] arr = new int[4,4];
+System.Console.WriteLine("Введите количество строк матрицы: ");
+int x = System.Console.Read();
+System.Console.WriteLine("Введите количество столбцов матрицы: ");
+int y = System.Console.Read();
+int[,] arr = new int[x,y];
 
 FillArraySpiral(ref arr);
 PrintArray(arr);
